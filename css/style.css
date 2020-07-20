@@ -41,6 +41,8 @@ h2 {
   font-weight: bold;
   font-size: 24px;
   margin-bottom: 40px;
+  justify-content: right;
+  display: grid;
 }
 ol,
 ul {
@@ -64,6 +66,7 @@ figure {
 }
 .hero-image {
   object-fit: cover;
+  justify-content: end;
 }
 
 .project {
@@ -88,9 +91,18 @@ figure {
 /*.project-date{
     margin: 10px 0;
 }*/
-.project-course,
-.project-date,
 .project-url {
+  text-decoration: none;
+}
+.project-url a {
+  margin: 10px 0;
+  color: blue;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 800;
+}
+.project-course,
+.project-date {
   margin: 10px 0;
 }
 .project-description {
